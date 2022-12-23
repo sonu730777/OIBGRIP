@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <img src="./images/logo.png" alt="" />
+      </nav>
+      <div class="main-content">
+        <div class="image-pic">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/food1.jpeg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/food2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/food3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/food4.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-text">
+          <h1>The Healthy Veggies</h1>
+          <p>Fresh Vegetables from farm to your door steps.</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="box">
+          <div class="image">
+            <img src="./images/side1.png" alt="" />
+          </div>
+          <div class="inner-box">
+            <h3>100% Organic</h3>
+            <p>Pure Organic farming for good health.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/side2.png" alt="" />
+          </div>
+          <div class="inner-box">
+            <h3>Not Expensive</h3>
+            <p>Buy at low Price.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/side3.png" alt="" />
+          </div>
+          <div class="inner-box">
+            <h3>Super Healthy</h3>
+            <p>Improves immunity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="social-links">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
